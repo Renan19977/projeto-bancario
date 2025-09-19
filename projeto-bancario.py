@@ -27,11 +27,6 @@ while True:
         else:
             print ("Valor Invalido")
         
-        
-        
-        
-        
-        
     elif opcao == "2":
         print("saque")
         valor_saque = float(input("Digite o Valor do saque:"))
@@ -48,12 +43,7 @@ while True:
             extrato += f"Saque: R$ {valor_saque}\n"
             numeros_saques += 1
             print("Saque Realizado")
-            
-            
-            
-            
-                    
-        
+               
     elif opcao == "3":
         print("Extrato")
         print ("---------EXTRATO--------")
@@ -62,11 +52,7 @@ while True:
         else:
             print(extrato)
             print(f"SALDO: {saldo:.2f}") 
-            
-            
-            
-            
-            
+             
     elif opcao == "0":
         break
     
